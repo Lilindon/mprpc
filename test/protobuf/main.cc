@@ -3,7 +3,27 @@
 #include <string>
 using namespace fixbug;
 
-int main()
+int main(){
+    // LoginResponse rsp;
+    // ResultCode *rc = rsp.mutable_result();
+    // rc->set_errcode(1);
+    // rc->set_errmsg("login error");
+
+    GetFriendListResponse rsp;
+    ResultCode *rc = rsp.mutable_result(); // 使用mutable_修改result里面的数据
+    rc->set_errcode(0);
+
+    User *user1 = rsp.add_friend_list();   // 使用add_修改friend_list里面的数据
+    user1->set_name("zhang san");          // 使用set_设置对象的值
+    user1->set_age(20); 
+    user1->set_sex(User::MAN);
+
+    std::cout << rsp.friend_list_size() << std::endl;
+    return 0;
+}
+
+
+int main1()
 {
     LoginRequest req;
     req.set_name("zhang san");
@@ -21,6 +41,6 @@ int main()
         std::cout << reqB.name() << std::endl;
         std::cout << reqB.pwd() << std::endl;
     }
-    
+
     return 0;
 }
