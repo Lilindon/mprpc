@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/mprpcconfig.h
+unordered_map
+-
+string
+-
+
+/data/mprpc/src/mprpcconfig.cc
+mprpcconfig.h
+/data/mprpc/src/mprpcconfig.h
+iostream
+-
+string
+-
+

@@ -1,0 +1,10 @@
+/data/mprpc/CMakeFiles/rebuild_cache.dir
+/data/mprpc/CMakeFiles/edit_cache.dir
+/data/mprpc/src/CMakeFiles/rebuild_cache.dir
+/data/mprpc/src/CMakeFiles/edit_cache.dir
+/data/mprpc/src/CMakeFiles/mprpc.dir
+/data/mprpc/example/CMakeFiles/rebuild_cache.dir
+/data/mprpc/example/CMakeFiles/edit_cache.dir
+/data/mprpc/example/callee/CMakeFiles/rebuild_cache.dir
+/data/mprpc/example/callee/CMakeFiles/edit_cache.dir
+/data/mprpc/example/callee/CMakeFiles/provider.dir

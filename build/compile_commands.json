@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/data/mprpc/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/data/mprpc/src/include -I/data/mprpc/example  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /data/mprpc/src/mprpcapplication.cc",
+  "file": "/data/mprpc/src/mprpcapplication.cc"
+},
+{
+  "directory": "/data/mprpc/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/data/mprpc/src/include -I/data/mprpc/example  -g -fPIC   -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /data/mprpc/src/mprpcconfig.cc",
+  "file": "/data/mprpc/src/mprpcconfig.cc"
+},
+{
+  "directory": "/data/mprpc/build/src",
+  "command": "/usr/bin/g++  -Dmprpc_EXPORTS -I/data/mprpc/src/include -I/data/mprpc/example  -g -fPIC   -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /data/mprpc/src/rpcprovider.cc",
+  "file": "/data/mprpc/src/rpcprovider.cc"
+},
+{
+  "directory": "/data/mprpc/build/example/callee",
+  "command": "/usr/bin/g++   -I/data/mprpc/src/include -I/data/mprpc/example  -g   -o CMakeFiles/provider.dir/userservice.cc.o -c /data/mprpc/example/callee/userservice.cc",
+  "file": "/data/mprpc/example/callee/userservice.cc"
+},
+{
+  "directory": "/data/mprpc/build/example/callee",
+  "command": "/usr/bin/g++   -I/data/mprpc/src/include -I/data/mprpc/example  -g   -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /data/mprpc/example/user.pb.cc",
+  "file": "/data/mprpc/example/user.pb.cc"
+}
+]

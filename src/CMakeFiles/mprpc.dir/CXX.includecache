@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/mprpc/src/mprpcapplication.cc
+mprpcapplication.h
+/data/mprpc/src/mprpcapplication.h
+iostream
+-
+unistd.h
+-
+string
+-
+
+/data/mprpc/src/mprpcconfig.cc
+mprpcconfig.h
+/data/mprpc/src/mprpcconfig.h
+iostream
+-
+string
+-
+
+/data/mprpc/src/rpcprovider.cc
+rpcprovider.h
+/data/mprpc/src/rpcprovider.h
+
+src/include/mprpcapplication.h
+mprpcconfig.h
+src/include/mprpcconfig.h
+
+src/include/mprpcconfig.h
+unordered_map
+-
+string
+-
+
+src/include/rpcprovider.h
+google/protobuf/service.h
+src/include/google/protobuf/service.h
+
